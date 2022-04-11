@@ -24,3 +24,6 @@ git add .
 
 git commit -m '프로젝트 생성'
 #메세지-m와 함께 버전을 생성함.
+
+git push origin master
+#origin이란 별칭의 원격 저장소로 버전 내역 전송
