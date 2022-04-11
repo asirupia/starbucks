@@ -1,0 +1,26 @@
+# 개행문자 (newLine) 설정
+
+##Windows
+git config --global core.autocrlf true
+
+#사용자 정보
+##커밋(버전 생성)을 위한 정보 등록
+git config --global user.name "your_name"
+git config --global user.email "your_email"
+
+#구성확인
+git config --global --list
+
+#현재 프로젝트에서 변경사항 추적(버전관리)을 시작
+git init
+
+#master 브랜치 파일로 생성됨
+
+git add index.html
+#변경사항을 추적할 특정파일(index.html)을 지정
+
+git add .
+#모든 파일의 변경 사항을 추적하도록 지정
+
+git commit -m '프로젝트 생성'
+#메세지-m와 함께 버전을 생성함.
